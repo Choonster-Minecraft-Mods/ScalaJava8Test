@@ -1,0 +1,1 @@
+This is a Minecraft Forge 1.8 mod I've made to test combining Java 8 and Scala in a single project.
