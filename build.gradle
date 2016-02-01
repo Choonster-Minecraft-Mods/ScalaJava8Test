@@ -7,7 +7,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:2.0-SNAPSHOT'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
     }
 }
 
@@ -54,6 +54,3 @@ sourceSets.main {
     scala.srcDir 'src/main/java'
 }
 
-// Fix resources not being loaded in IDEA
-// http://www.minecraftforge.net/forum/index.php/topic,32467.msg169687.html#msg169687
-idea.module.inheritOutputDirs = true
